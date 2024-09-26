@@ -14,6 +14,9 @@ void main() {
                   Container(
                     padding: EdgeInsets.all(20),
                     child: fotoPerfil(),
+                  ),
+                  Container(
+                    child: botoes(),
                   )
                 ],
               )))));

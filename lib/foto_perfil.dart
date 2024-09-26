@@ -30,7 +30,16 @@ class botoes extends StatefulWidget {
 class _botoesState extends State<botoes> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: Column(
+        children: [
+          TextButton(onPressed: () {}, child: Text("Home")),
+          TextButton(onPressed: () {}, child: Text("CheckLists")),
+          TextButton(onPressed: () {}, child: Text("Relatório")),
+          TextButton(onPressed: () {}, child: Text("Contatos")),
+        ],
+      ),
+    );
   }
 }
 
