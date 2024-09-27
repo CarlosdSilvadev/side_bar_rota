@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'foto_perfil.dart';
+import 'side_bar.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -8,16 +8,20 @@ void main() {
           alignment: Alignment.centerLeft,
           child: Container(
               width: 200,
-              color: const Color.fromRGBO(68, 68, 68, 1),
-              child: Column(
+              color: const Color.fromRGBO(60, 60, 60, 1),
+              child: Stack(
                 children: [
-                  Container(
-                    padding: EdgeInsets.all(20),
-                    child: fotoPerfil(),
+                  Column(
+                    children: [
+                      Container(
+                        child: fotoPerfil(),
+                      ),
+                      Container(
+                        child: botoes(),
+                      ),
+                    ],
                   ),
-                  Container(
-                    child: botoes(),
-                  )
+                  Positioned(bottom: 0, left: 0, right: 0, child: botaoSair())
                 ],
               )))));
 }
