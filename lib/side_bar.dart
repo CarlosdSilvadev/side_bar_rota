@@ -25,6 +25,14 @@ class _fotoPerfilState extends State<fotoPerfil> {
   }
 }
 
+//
+//
+//
+//
+//
+//
+//
+//
 //botoes da side bar
 class botoes extends StatefulWidget {
   const botoes({super.key});
@@ -105,6 +113,14 @@ class _botoesState extends State<botoes> {
   }
 }
 
+//
+//
+//
+//
+//
+//
+//
+//
 //botão sair da side bar
 class botaoSair extends StatefulWidget {
   const botaoSair({super.key});
